@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>shatter</title>
+
+  	<script src="libraries/p5.js"></script>
+  	<script src="libraries/p5.dom.js"></script>
+  	<script src="libraries/p5.sound.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/13.4.9/Tone.min.js"></script>
+	<script src="ui/dist/NexusUI.js"></script>
+	
+
+	
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		canvas {
+			margin: auto;
+		}
+		#target{
+			z-index: 10;
+			position: absolute;
+    		bottom:0px;
+    		right:25%;
+    		left:50%;
+    		margin-left:-150px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div id="target"></div>
+	<script src="shatter.js"></script>
+</body>
+
+</html>
